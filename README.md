@@ -5,7 +5,7 @@ This repo automates the tests for the following scenarios:
  
 - Input validation
 - Search result verification
-- Input and search result cross-reference validity
+- Front-end output and API response cross-reference validation
 
 ## How to set up the framework on your local
 <a id="python_installation"></a>
@@ -16,6 +16,7 @@ This repo automates the tests for the following scenarios:
 🔵 Using a <a href="https://github.com/seleniumbase/SeleniumBase/blob/master/help_docs/virtualenv_instructions.md">Python virtual env</a> is recommended.
 
 ### Install the dependencies
+After setting up python and a virtual environment you can install the requirements via `requirements.txt`
 ```bash
 pip install -r requirements.txt
 ```
