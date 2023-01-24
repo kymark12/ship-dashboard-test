@@ -35,7 +35,7 @@ pytest --demo -vv
 💡 Note: This is unusable now, since I have to deploy the web app on a cloud server
 </aside>
 
-But if you can run the test (Although it will fail) via GitHub Actions on the Action tab of this repo:
+But you can run the test (Although it will fail) via GitHub Actions on the Action tab of this repo:
 
 - Click `CI Build`
 - Click `Run Workflow`
