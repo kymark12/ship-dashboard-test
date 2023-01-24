@@ -8,8 +8,6 @@ This repo automates the tests for the following scenarios:
 - Front-end output and API response cross-reference validation
 
 ## How to set up the framework on your local
-<a id="python_installation"></a>
-<h2><img src="https://seleniumbase.github.io/cdn/img/python_logo.png" title="SeleniumBase" width="42" /> Set up Python & Git:</h2>
 
 🔵 Add <b><a href="https://www.python.org/downloads/">Python</a></b> and <b><a href="https://git-scm.com/">Git</a></b> to your System PATH.
 
@@ -20,3 +18,25 @@ After setting up python and a virtual environment you can install the requiremen
 ```bash
 pip install -r requirements.txt
 ```
+
+## How to run the tests
+### On local
+You can simply run the tests by:
+```bash
+pytest -vv
+```
+The test may run fast to the point of not seeing it execute, to slow things down where we can view what's happening:
+```bash
+pytest --demo -vv
+```
+
+### Using GitHub Actions
+<aside>
+💡 Note: This is unusable now, since I have to deploy the web app on a cloud server
+</aside>
+
+But if you can run the test (Although it will fail) via GitHub Actions on the Action tab of this repo:
+
+- Click `CI Build`
+- Click `Run Workflow`
+- Then on the pop-up window click `Run Workflow` again
